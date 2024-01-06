@@ -1,9 +1,11 @@
 # **React + Vite + NodeJS + Axios + Tailwind CSS + Font Awesome**
 ### ทั้งหมดนี้คือสิ่งที่ใช้งาน ของ Repo นี้
-- **[Vite](https://github.com/DoNuTll40/snru-todolist-react/edit/main/README.md#vite-open-website)**
-- **[Axios](https://github.com/DoNuTll40/snru-todolist-react/edit/main/README.md#vite-open-website)**
-- **[Tailwind CSS](https://github.com/DoNuTll40/snru-todolist-react/edit/main/README.md#vite-open-website)**
-- **[Font Awesome](https://github.com/DoNuTll40/snru-todolist-react/edit/main/README.md#vite-open-website)**
+- **[Vite](https://github.com/DoNuTll40/snru-todolist-react?tab=readme-ov-file#vite-open-website)**
+- **[Axios](https://github.com/DoNuTll40/snru-todolist-react?tab=readme-ov-file#axios-open-website)**
+- **[Tailwind CSS](https://github.com/DoNuTll40/snru-todolist-react?tab=readme-ov-file#tailwind-css-open-website)**
+- **[Font Awesome](https://github.com/DoNuTll40/snru-todolist-react?tab=readme-ov-file#font-awesome-open-website)**
+- **[How to Deploy](https://github.com/DoNuTll40/snru-todolist-react?tab=readme-ov-file#how-to-deploy-full-repo)**
+- **[Setting Repo.](https://github.com/DoNuTll40/snru-todolist-react?tab=readme-ov-file#%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%9B%E0%B9%83%E0%B8%99-repo-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B2)**
 ## **Vite** [Open Website](https://vitejs.dev/)
 
 - คำสั่งติดตั้ง
