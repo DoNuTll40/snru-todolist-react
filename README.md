@@ -1,4 +1,4 @@
-# **สิ่งที่ใช้ใน repo จะมั React + Vite + NodeJS + Axios + Tailwind CSS + Font Awesome**
+# **React + Vite + NodeJS + Axios + Tailwind CSS + Font Awesome**
 
 ## **Vite** [Open Website](https://vitejs.dev/)
 
