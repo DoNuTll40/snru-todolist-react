@@ -60,4 +60,4 @@ Currently, two official plugins are available:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-```
+  ```
