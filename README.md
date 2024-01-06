@@ -3,7 +3,8 @@
 สิ่งที่ใช้ใน repo นี้.
 
 ได้แก่.
-[x] : [fontawesome](https://fontawesome.com/)
+
+- : [fontawesome](https://fontawesome.com/)
 
 
 # How to Deploy full repo
