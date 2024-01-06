@@ -7,15 +7,17 @@
 - : [Font Awesome](https://fontawesome.com/)
 
 ``` bash
-
 npm i --save @fortawesome/fontawesome-svg-core
 npm install --save @fortawesome/react-fontawesome
+```
 
+``` bash
 // ชุด icon free
 npm install --save @fortawesome/free-solid-svg-icons
-
-
 ```
+
+
+
 
 
 # How to Deploy full repo
