@@ -21,9 +21,9 @@ npm i --save @fortawesome/free-brands-svg-icons
 
 วิธีใช้งาน
 
-``` javascript
+``` javascriptxml
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons' 
+import { ชื่อ icon } from '@fortawesome/free-solid-svg-icons' 
 ```
 
 
