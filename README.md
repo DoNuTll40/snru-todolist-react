@@ -2,7 +2,7 @@
 
 สิ่งที่ใช้ใน repo นี้.
 
-## Font Awesome [Open Website](https://fontawesome.com/)
+### Font Awesome [Open Website](https://fontawesome.com/)
 
 ``` powershell
 npm i --save @fortawesome/fontawesome-svg-core
