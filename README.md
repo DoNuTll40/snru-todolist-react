@@ -153,13 +153,14 @@ export default defineConfig({
           publish_dir: ./dist
   ```
 
-จากนั้นเข้าไปใน repo ของเรา
-1.ไปที่ Setting
-1.ไปที่ Action แล้วเลือก General
-1.เลื่อนหา Workflow permissions แล้วคลิกที่ Read and write permissions จากนั้นกด Save
-1.ไปที่หน้า Avtion ใน Navbar รอ การ Deploy สักครู่ 
-1.ถ้า Fail ให้ทำการคลิกเข้าไปจากนั้น คลิก Re-run failed
-1.เป็นอันจบ
+จากนั้นเข้าไปใน repo ของเรา.
+
+1. ไปที่ **Setting**
+1. ไปที่ **Action** แล้วเลือก **General**
+1. เลื่อนหา **Workflow permissions** แล้วคลิกที่ **Read and write permissions** จากนั้นกด **Save**
+1. ไปที่หน้า **Avtion** ใน **Navbar** รอ การ **Deploy** สักครู่ 
+1. ถ้า **Fail** ให้ทำการคลิกเข้าไปจากนั้น คลิก **Re-run failed**
+1. เป็นอันจบ
 
 # คำสั่งในการ repush repo git
 ```bash
