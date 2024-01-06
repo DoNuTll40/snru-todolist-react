@@ -5,7 +5,17 @@
 ได้แก่.
 
 - : [Font Awesome](https://fontawesome.com/)
-- @octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+``` bash
+
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/react-fontawesome
+
+// ชุด icon free
+npm install --save @fortawesome/free-solid-svg-icons
+
+
+```
 
 
 # How to Deploy full repo
