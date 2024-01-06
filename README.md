@@ -8,6 +8,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 # How to Deploy full repo
+
+เข้าไปที่ไฟล์ 
+
 สร้างโฟล์เดอร์ .github/workflows/deploy.yml ใน projects ของเราเลย.
 
 จากนั้น copy and paste ลงไปในไฟล์ deply.yml แล้ว save.
