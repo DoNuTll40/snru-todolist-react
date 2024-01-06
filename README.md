@@ -1,8 +1,34 @@
-# React + Vite
+# **สิ่งที่ใช้ใน repo นี้ React + Vite**
 
-### **สิ่งที่ใช้ใน repo นี้**
+## **Vite** [Open Website](https://vitejs.dev/)
 
-### AXIOS [Open Website](https://axios-http.com/)
+คำสั่งติดตั้ง
+
+``` powershell
+npm create vite@latest my-project -- --template react
+```
+
+เข้าไปใน โฟล์เดอร์ที่สร้าง
+
+``` powershell
+cd my-project
+```
+
+คำสั่งติดตั้ง **Node JS** *รันบนเครื่องตัวเอง
+
+``` powershell
+npm install
+```
+
+คำสั่งรัน
+
+``` powershell
+npm run dev
+```
+
+
+
+## **AXIOS** [Open Website](https://axios-http.com/)
 
 คำสั่งติดตั้ง
 
@@ -17,7 +43,7 @@ npm i axios
 import axios from 'axios';
 ```
 
-### Tailwind CSS [Open Website](https://tailwindcss.com/docs/installation)
+## **Tailwind CSS** [Open Website](https://tailwindcss.com/docs/installation)
 
 คำสั่งติดตั้ง ณ ที่นี้ใช้ **Framework** ตัว **Vite**
 
@@ -50,7 +76,7 @@ export default {
 @tailwind utilities;
 ```
 
-### Font Awesome [Open Website](https://fontawesome.com/)
+## **Font Awesome** [Open Website](https://fontawesome.com/)
 
 คำสั่งติดตั้ง
 
@@ -79,10 +105,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { ชื่อ icon } from '@fortawesome/free-solid-svg-icons' 
 ```
 
-
-
-
-# How to Deploy full repo
+## How to Deploy full repo
 
 เข้าไปที่ไฟล์ ./vite.config.js/
 
@@ -162,7 +185,7 @@ export default defineConfig({
 1. ถ้า **Fail** ให้ทำการคลิกเข้าไปจากนั้น คลิก **Re-run failed**
 1. เป็นอันจบ
 
-# คำสั่งในการ repush repo git
+## คำสั่งในการ repush repo git
 ```bash
 git add .
 git commit -m "แล้วแต่จะตั้ง"
