@@ -11,6 +11,15 @@ Currently, two official plugins are available:
 
 เข้าไปที่ไฟล์ ./vite.config.js/
 
+``` javascript
+
+export default defineConfig({
+  plugins: [react()],
+  base: "ชื่อ repo ชองเรา"
+})
+
+```
+
 สร้างโฟล์เดอร์ .github/workflows/deploy.yml ใน projects ของเราเลย.
 
 จากนั้น copy and paste ลงไปในไฟล์ deply.yml แล้ว save.
