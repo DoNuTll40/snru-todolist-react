@@ -5,6 +5,7 @@
 ได้แก่.
 
 - : [Font Awesome](https://fontawesome.com/)
+- @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
 
 # How to Deploy full repo
