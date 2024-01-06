@@ -8,7 +8,7 @@
 
 ``` powershell
 npm i --save @fortawesome/fontawesome-svg-core
-npm install --save @fortawesome/react-fontawesome
+npm i --save @fortawesome/react-fontawesome@latest
 ```
 
 ชุด icon free
@@ -19,7 +19,12 @@ npm i --save @fortawesome/free-regular-svg-icons
 npm i --save @fortawesome/free-brands-svg-icons
 ```
 
+วิธีใช้งาน
 
+``` javascript
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons' 
+```
 
 
 
