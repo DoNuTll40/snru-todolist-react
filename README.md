@@ -19,11 +19,35 @@ import axios from 'axios';
 
 ### Tailwind CSS [Open Website](https://tailwindcss.com/docs/installation)
 
-คำสั่งติดตั้ง
+คำสั่งติดตั้ง ณ ที่นี้ใช้ **Framework** ตัว **Vite**
 
 ``` powershell
-npm i --save @fortawesome/fontawesome-svg-core
-npm i --save @fortawesome/react-fontawesome@latest
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+
+จากนั้นนำ ตัวนี้ ไปวาง ในไฟล์ของ - **tailwind.config.js**
+
+``` javascript
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+} 
+```
+
+นำส่วนนี้ไปวางไว้ใน ไฟล์ **CSS** เพื่อเรียกใช้งาน
+
+``` css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
 
 ### Font Awesome [Open Website](https://fontawesome.com/)
@@ -129,12 +153,9 @@ export default defineConfig({
           publish_dir: ./dist
   ```
 
-# คำสั่งในการส่งขึ้น repo git
+# คำสั่งในการ repush repo git
 ```bash
 git add .
-
 git commit -m "แล้วแต่จะตั้ง"
-
 git push
-
 ```
