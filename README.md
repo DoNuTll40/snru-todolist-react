@@ -19,12 +19,18 @@ npm i --save @fortawesome/free-regular-svg-icons
 npm i --save @fortawesome/free-brands-svg-icons
 ```
 
-วิธีใช้งาน
+วิธีใช้งาน เอาไปไว้ใน ไฟล์ ./main.jsx
 
-``` javascriptxml
+``` javascript
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+```
+
+การเรียกใช้ icon
+
+``` javascript
 import { ชื่อ icon } from '@fortawesome/free-solid-svg-icons' 
 ```
+
 
 
 
