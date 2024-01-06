@@ -2,7 +2,22 @@
 
 สิ่งที่ใช้ใน repo นี้.
 
+### AXIOS [Open Website](https://axios-http.com/)
+
+``` powershell
+npm i axios
+```
+
+วิธีเรียกใช้งาน
+- เรียกใช้งานในไฟล์หลัก
+
+``` powershell
+import axios from 'axios';
+```
+
 ### Font Awesome [Open Website](https://fontawesome.com/)
+
+คำสั่งติดตั้ง
 
 ``` powershell
 npm i --save @fortawesome/fontawesome-svg-core
