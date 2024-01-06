@@ -2,25 +2,25 @@
 
 ## **Vite** [Open Website](https://vitejs.dev/)
 
-คำสั่งติดตั้ง
+- คำสั่งติดตั้ง
 
 ``` powershell
 npm create vite@latest my-project -- --template react
 ```
 
-เข้าไปใน โฟล์เดอร์ที่สร้าง
+- เข้าไปใน โฟล์เดอร์ที่สร้าง
 
 ``` powershell
 cd my-project
 ```
 
-คำสั่งติดตั้ง **Node JS** *รันบนเครื่องตัวเอง
+- คำสั่งติดตั้ง **Node JS** *รันบนเครื่องตัวเอง
 
 ``` powershell
 npm install
 ```
 
-คำสั่งรัน
+- คำสั่งรัน
 
 ``` powershell
 npm run dev
@@ -30,13 +30,13 @@ npm run dev
 
 ## **AXIOS** [Open Website](https://axios-http.com/)
 
-คำสั่งติดตั้ง
+- คำสั่งติดตั้ง
 
 ``` powershell
 npm i axios
 ```
 
-วิธีเรียกใช้งาน
+### วิธีเรียกใช้งาน
 - เรียกใช้งานในไฟล์หลัก
 
 ``` javascript
@@ -52,7 +52,7 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-จากนั้นนำ ตัวนี้ ไปวาง ในไฟล์ของ - **tailwind.config.js**
+- จากนั้นนำ ตัวนี้ ไปวาง ในไฟล์ของ - **tailwind.config.js**
 
 ``` javascript
 /** @type {import('tailwindcss').Config} */
@@ -68,7 +68,7 @@ export default {
 } 
 ```
 
-นำส่วนนี้ไปวางไว้ใน ไฟล์ **CSS** เพื่อเรียกใช้งาน
+- นำส่วนนี้ไปวางไว้ใน ไฟล์ **CSS** เพื่อเรียกใช้งาน
 
 ``` css
 @tailwind base;
@@ -78,14 +78,14 @@ export default {
 
 ## **Font Awesome** [Open Website](https://fontawesome.com/)
 
-คำสั่งติดตั้ง
+- คำสั่งติดตั้ง
 
 ``` powershell
 npm i --save @fortawesome/fontawesome-svg-core
 npm i --save @fortawesome/react-fontawesome@latest
 ```
 
-ชุด icon free
+- ชุด icon free
 
 ``` powershell
 npm i --save @fortawesome/free-solid-svg-icons
@@ -93,13 +93,13 @@ npm i --save @fortawesome/free-regular-svg-icons
 npm i --save @fortawesome/free-brands-svg-icons
 ```
 
-วิธีใช้งาน เอาไปไว้ใน ไฟล์หลัก เช่น **[App.jsx](./src/App.jsx)**
+- วิธีใช้งาน เอาไปไว้ใน ไฟล์หลัก เช่น **[App.jsx](./src/App.jsx)**
 
 ``` javascript
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 ```
 
-การเรียกใช้ icon
+- การเรียกใช้ icon
 
 ``` javascript
 import { ชื่อ icon } from '@fortawesome/free-solid-svg-icons' 
@@ -107,7 +107,7 @@ import { ชื่อ icon } from '@fortawesome/free-solid-svg-icons'
 
 ## How to Deploy full repo
 
-เข้าไปที่ไฟล์ ./vite.config.js/
+- เข้าไปที่ไฟล์ ./vite.config.js/
 
 ``` javascript
 
@@ -118,9 +118,9 @@ export default defineConfig({
 
 ```
 
-สร้างโฟล์เดอร์ .github/workflows/deploy.yml ใน projects ของเราเลย.
+- สร้างโฟล์เดอร์ .github/workflows/deploy.yml ใน projects ของเราเลย.
 
-จากนั้น copy and paste ลงไปในไฟล์ deply.yml แล้ว save.
+- จากนั้น copy and paste ลงไปในไฟล์ deply.yml แล้ว save.
 
   ``` yaml
   name: Deploy
@@ -176,7 +176,7 @@ export default defineConfig({
           publish_dir: ./dist
   ```
 
-จากนั้นเข้าไปใน repo ของเรา.
+### จากนั้นเข้าไปใน repo ของเรา.
 
 1. ไปที่ **Setting**
 1. ไปที่ **Action** แล้วเลือก **General**
