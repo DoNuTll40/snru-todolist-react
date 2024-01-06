@@ -12,16 +12,6 @@ Currently, two official plugins are available:
 
 จากนั้น copy and paste ลงไปในไฟล์ deply.yml แล้ว save.
 
-# คำสั่งในการส่งขึ้น repo git
-```bash
-git add .
-
-git commit -m "แล้วแต่จะตั้ง"
-
-git push
-
-```
-
   ``` yaml
   name: Deploy
 
@@ -75,3 +65,13 @@ git push
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
   ```
+
+# คำสั่งในการส่งขึ้น repo git
+```bash
+git add .
+
+git commit -m "แล้วแต่จะตั้ง"
+
+git push
+
+```
