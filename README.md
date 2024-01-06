@@ -11,7 +11,7 @@ npm i axios
 วิธีเรียกใช้งาน
 - เรียกใช้งานในไฟล์หลัก
 
-``` powershell
+``` javascript
 import axios from 'axios';
 ```
 
