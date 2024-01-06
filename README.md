@@ -6,12 +6,12 @@
 
 - : [Font Awesome](https://fontawesome.com/)
 
-``` bash
+``` ruby
 npm i --save @fortawesome/fontawesome-svg-core
 npm install --save @fortawesome/react-fontawesome
 ```
 
-``` bash
+``` ruby
 // ชุด icon free
 npm install --save @fortawesome/free-solid-svg-icons
 ```
