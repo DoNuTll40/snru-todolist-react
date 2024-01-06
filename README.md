@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 # How to Deploy full repo
 
-เข้าไปที่ไฟล์ 
+เข้าไปที่ไฟล์ ./vite.config.js/
 
 สร้างโฟล์เดอร์ .github/workflows/deploy.yml ใน projects ของเราเลย.
 
