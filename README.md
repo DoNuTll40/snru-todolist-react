@@ -9,15 +9,14 @@ Currently, two official plugins are available:
 
 - #deploy .github/workflows/deploy.yml
   ``` yaml
+  name: Deploy
 
-name: Deploy
-
-on:
+  on:
   push:
     branches:
       - main
 
-jobs:
+  jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
