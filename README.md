@@ -4,7 +4,7 @@
 
 ได้แก่.
 
-- : [fontawesome](https://fontawesome.com/)
+- : [Font Awesome](https://fontawesome.com/)
 
 
 # How to Deploy full repo
