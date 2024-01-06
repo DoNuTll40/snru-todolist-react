@@ -4,7 +4,7 @@
 
 ได้แก่.
 
-- : [Font Awesome](https://fontawesome.com/)
+- : Font Awesome https://fontawesome.com/
 
 ``` powershell
 npm i --save @fortawesome/fontawesome-svg-core
