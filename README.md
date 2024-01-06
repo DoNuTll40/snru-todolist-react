@@ -1,8 +1,10 @@
 # React + Vite
 
-### **สิ่งที่ใช้ใน repo นี้.**
+### **สิ่งที่ใช้ใน repo นี้**
 
 ### AXIOS [Open Website](https://axios-http.com/)
+
+คำสั่งติดตั้ง
 
 ``` powershell
 npm i axios
@@ -13,6 +15,15 @@ npm i axios
 
 ``` javascript
 import axios from 'axios';
+```
+
+### Tailwind CSS [Open Website](https://tailwindcss.com/docs/installation)
+
+คำสั่งติดตั้ง
+
+``` powershell
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/react-fontawesome@latest
 ```
 
 ### Font Awesome [Open Website](https://fontawesome.com/)
@@ -32,7 +43,7 @@ npm i --save @fortawesome/free-regular-svg-icons
 npm i --save @fortawesome/free-brands-svg-icons
 ```
 
-วิธีใช้งาน เอาไปไว้ใน ไฟล์ ./main.jsx
+วิธีใช้งาน เอาไปไว้ใน ไฟล์หลัก เช่น **[App.jsx](./src/App.jsx)**
 
 ``` javascript
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
