@@ -1,7 +1,9 @@
 # React + Vite
 
 สิ่งที่ใช้ใน repo นี้.
-[fontawesome](https://fontawesome.com/)
+
+ได้แก่.
+[x] : [fontawesome](https://fontawesome.com/)
 
 
 # How to Deploy full repo
