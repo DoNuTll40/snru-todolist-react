@@ -14,7 +14,7 @@ function TodoContainer(props) {
         <TodoItem key={el.id} job={el} hdlDel={hdlDel} hdlUpdate={hdlUpdate} hdlStatus={hdlStatus} isLoading={isLoading}/>
       ))
       }
-      <p className="text-[12px] text-center text-white">&copy;Copyright <a className="underline align-text-top" href="https://github.com/DoNuTll40" target="_blank">CS125 Nuttawoot Chawna SNRU</a> | Source : <a href="https://github.com/DoNuTll40/snru-todolist-react" className="font-bold" target="_blank">Code</a></p>
+      <p className="text-[12px] text-center text-white">&copy;Copyright <a className="underline align-text-top" href="https://github.com/DoNuTll40" target="_blank">CS125 Nuttawoot Chawna SNRU</a> | Source Code : <a href="https://github.com/DoNuTll40/snru-todolist-react" className="underline align-text-top" target="_blank">Github</a></p>
     </div>
   )
 }
