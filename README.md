@@ -6,6 +6,20 @@
 - **[Font Awesome](https://github.com/DoNuTll40/snru-todolist-react?tab=readme-ov-file#font-awesome-open-website)**
 - **[How to Deploy](https://github.com/DoNuTll40/snru-todolist-react?tab=readme-ov-file#how-to-deploy-full-repo)**
 - **[Setting Repo.](https://github.com/DoNuTll40/snru-todolist-react?tab=readme-ov-file#%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%99%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B9%84%E0%B8%9B%E0%B9%83%E0%B8%99-repo-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B2)**
+
+### ขั้นตอนการเอาไฟล์ขึ้น git ผ่าน terminal
+
+``` bash
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/myUsers/NameRepo.git
+git push -u origin main
+
+```
+
 ## **Vite** [Open Website](https://vitejs.dev/)
 
 - คำสั่งติดตั้ง
@@ -193,7 +207,10 @@ export default defineConfig({
 
 ## คำสั่งในการ repush repo git
 ```bash
+
 git add .
 git commit -m "แล้วแต่จะตั้ง"
-git push
+git pull --rebase origin main
+git push origin main
+
 ```
