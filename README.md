@@ -127,7 +127,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { ชื่อ icon } from '@fortawesome/free-solid-svg-icons' 
 ```
 
-## How to Deploy full repo
+# How to Deploy full repo
 
 - เข้าไปที่ไฟล์ ```./vite.config.js``` . 
 
@@ -200,7 +200,7 @@ export default defineConfig({
           publish_dir: ./dist
   ```
 
-### จากนั้นเข้าไปใน repo ของเรา.
+## จากนั้นเข้าไปใน repo ของเรา.
 
 1. ไปที่ **Setting**
 1. ไปที่ **Action** แล้วเลือก **General**
