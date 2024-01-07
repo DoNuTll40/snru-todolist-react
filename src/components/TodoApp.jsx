@@ -46,7 +46,7 @@ function TodoApp() {
   }
 
   return (
-    <div className='todo-app bg-rose-300 p-3 px-5 flex-col rounded-[10px] border-4 border-white shadow-light'>
+    <div className='todo-app bg-rose-300 p-3 px-5 max-sm:px-3 flex-col rounded-[10px] border-4 border-white shadow-light'>
       <Dashboard task={data} />
       <FormAddTodo hdlAdd={hdlAdd} />
       <TodoContainer todos={data} apiUrl={apiUrl} hdlDel={hdlDel} hdlUpdate={hdlUpdate} hdlStatus={hdlStatus} isLoading={isLoading}/>
