@@ -129,7 +129,7 @@ import { ชื่อ icon } from '@fortawesome/free-solid-svg-icons'
 
 ## How to Deploy full repo
 
-- เข้าไปที่ไฟล์ ./vite.config.js/
+- เข้าไปที่ไฟล์ ```./vite.config.js``` . 
 
 ``` javascript
 
@@ -140,7 +140,9 @@ export default defineConfig({
 
 ```
 
-- สร้างโฟล์เดอร์ .github/workflows/deploy.yml ใน projects ของเราเลย.
+- สร้างโฟล์เดอร์
+  - .github/
+    - workflows/ แล้วสร้างไฟล์  ```deploy.yml``` ใน projects ของเราเลย.
 
 - จากนั้น copy and paste ลงไปในไฟล์ deply.yml แล้ว save.
 
