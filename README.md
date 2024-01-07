@@ -20,6 +20,8 @@ git push -u origin main
 
 ```
 
+# ขั้นตอนการติดตั้ง
+
 ## **Vite** [Open Website](https://vitejs.dev/)
 
 - คำสั่งติดตั้ง
