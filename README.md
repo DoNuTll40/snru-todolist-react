@@ -210,6 +210,19 @@ export default defineConfig({
   
   ```
 
+### ในกรณีที่ ``` git push ``` ไม่ได้
+
+
+- ก็ใช้ตัวนี้
+``` bash
+
+git pull --rebase
+git push
+
+```
+
+[ที่มาของข้อมูล](https://stackoverflow.com/questions/24114676/git-error-failed-to-push-some-refs-to-remote)
+
 ## จากนั้นเข้าไปใน repo ของเรา.
 
 1. ไปที่ **Setting**
