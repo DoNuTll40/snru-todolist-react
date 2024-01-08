@@ -1,4 +1,4 @@
-import { faCancel, faL, faPen, faPenAlt, faPenFancy, faPenToSquare, faSave, faStoreSlash, faTeeth, faTrash, faTrashAlt, faTrashArrowUp, faTrashCan, faTrashRestore } from "@fortawesome/free-solid-svg-icons";
+import { faCancel, faPenToSquare, faSave, faTrashCan } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 
