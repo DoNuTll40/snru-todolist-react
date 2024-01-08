@@ -205,8 +205,7 @@ export default defineConfig({
 
 git add .
 git commit -m "แล้วแต่จะตั้ง"
-git pull --rebase origin main
-git push origin main
+git push
 
 ```
 
