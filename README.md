@@ -141,63 +141,63 @@ export default defineConfig({
 ```
 
 - สร้างโฟล์เดอร์
-  - .github/
-    - workflows/ แล้วสร้างไฟล์  ```deploy.yml``` ใน projects ของเราเลย.
+  - .github
+    - workflows แล้วสร้างไฟล์  ```deploy.yml``` ในโฟล์เดอร์เลย.
 
-- จากนั้น copy and paste ลงไปในไฟล์ deply.yml แล้ว save.
+- จากนั้น copy and paste ลงไปในไฟล์ [deploy.yml](./.github/workflows/deploy.yml) แล้ว save.
 
   ``` yaml
   name: Deploy
   
-      on:
-        push:
-          branches:
-            - main
-      
-      jobs:
-        build:
-          name: Build
-          runs-on: ubuntu-latest
-      
-          steps:
-            - name: Checkout repo
-              uses: actions/checkout@v2
-      
-            - name: Setup Node
-              uses: actions/setup-node@v1
-              with:
-                node-version: 16
-      
-            - name: Install dependencies
-              uses: bahmutov/npm-install@v1
-      
-            - name: Build project
-              run: npm run build
-      
-            - name: Upload production-ready build files
-              uses: actions/upload-artifact@v2
-              with:
-                name: production-files
-                path: ./dist
-      
-        deploy:
-          name: Deploy
-          needs: build
-          runs-on: ubuntu-latest
-          if: github.ref == 'refs/heads/main'
-      
-          steps:
-            - name: Download artifact
-              uses: actions/download-artifact@v2
-              with:
-                name: production-files
-                path: ./dist
-      
-            - name: Deploy to GitHub Pages
-              uses: peaceiris/actions-gh-pages@v3
-              with:
-                github_token: ${{ secrets.GITHUB_TOKEN }}
-                publish_dir: ./dist
+  on:
+    push:
+      branches:
+        - main
+  
+  jobs:
+    build:
+      name: Build
+      runs-on: ubuntu-latest
+  
+      steps:
+        - name: Checkout repo
+          uses: actions/checkout@v2
+  
+        - name: Setup Node
+          uses: actions/setup-node@v1
+          with:
+            node-version: 16
+  
+        - name: Install dependencies
+          uses: bahmutov/npm-install@v1
+  
+        - name: Build project
+          run: npm run build
+  
+        - name: Upload production-ready build files
+          uses: actions/upload-artifact@v2
+          with:
+            name: production-files
+            path: ./dist
+  
+    deploy:
+      name: Deploy
+      needs: build
+      runs-on: ubuntu-latest
+      if: github.ref == 'refs/heads/main'
+  
+      steps:
+        - name: Download artifact
+          uses: actions/download-artifact@v2
+          with:
+            name: production-files
+            path: ./dist
+  
+        - name: Deploy to GitHub Pages
+          uses: peaceiris/actions-gh-pages@v3
+          with:
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: ./dist
   ```
 
 ## คำสั่งในการ repush repo git
@@ -215,6 +215,7 @@ git push
 1. ไปที่ **Action** แล้วเลือก **General**
 1. เลื่อนหา **Workflow permissions** แล้วคลิกที่ **Read and write permissions** จากนั้นกด **Save**
 1. ไปที่หน้า **Avtion** ใน **Navbar** รอ การ **Deploy** สักครู่ 
-1. ถ้า **Fail** ให้ทำการคลิกเข้าไปจากนั้น คลิก **Re-run failed**
-1. เป็นอันจบ
-
+1. ถ้า **Fail** ให้ทำการคลิกเข้าไปจากนั้น คลิก **Re-run failed** จะอยู่มุมขวาบน
+1. จากนั้นรอจน Deploy เสร็จแล้วให้ไปที่ Setiing
+1. ไปที่ Pages แล้วตรง **Branch** ให้เรา คลิกเลือกตรง **None** เป็น **gh-pages**
+1. จากนั้นกด **Save** แล้วรอรับ **Link** ได้เลย
