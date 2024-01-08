@@ -201,13 +201,14 @@ export default defineConfig({
   ```
 
 ## คำสั่งในการ repush repo git
-```bash
 
-git add .
-git commit -m "แล้วแต่จะตั้ง"
-git push
-
-```
+  ```bash
+  
+  git add .
+  git commit -m "แล้วแต่จะตั้ง"
+  git push
+  
+  ```
 
 ## จากนั้นเข้าไปใน repo ของเรา.
 
@@ -223,7 +224,7 @@ git push
 
    ![image](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQ4o_fUIHNBB5usj2sqCmniR8GbyWhjtpXne21mACwM1MDkfjWGcv-ZE7kC-afNGjPsAzZYCZvT-hXxVQP_5zfDM5p20A=w1398-h1380)
 
-6. จากนั้นจะมี Pop-up ขึ้นมา ให้เรากด Re-run jobs
+6. จากนั้นจะมี **Pop-up** ขึ้นมา ให้เรากด **Re-run jobs**
 
 ![image](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQN0Dk9F1HLquG2YOOkgN5iiKYldqQQOaOsl3-smj2iOpMDmNnQhB7wnKNDlGubuPMhYsjMwtK-EfOHztdSM2XHqqPa=w1960-h1932)
 
