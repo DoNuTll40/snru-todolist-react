@@ -1,4 +1,4 @@
-# **React + Vite + NodeJS + Axios + Tailwind CSS + Font Awesome**
+![image](https://github.com/DoNuTll40/snru-todolist-react/assets/152863424/e98a4ed3-c663-4541-b1b9-9bd15ccdf742)# **React + Vite + NodeJS + Axios + Tailwind CSS + Font Awesome**
 ### ทั้งหมดนี้คือสิ่งที่ใช้งาน ของ Repo นี้
 - **[Vite](https://github.com/DoNuTll40/snru-todolist-react?tab=readme-ov-file#vite-open-website)**
 - **[Axios](https://github.com/DoNuTll40/snru-todolist-react?tab=readme-ov-file#axios-open-website)**
@@ -215,7 +215,9 @@ git push
 1. ไปที่ **Action** แล้วเลือก **General**
 1. เลื่อนหา **Workflow permissions** แล้วคลิกที่ **Read and write permissions** จากนั้นกด **Save**
 1. ไปที่หน้า **Avtion** ใน **Navbar** รอ การ **Deploy** สักครู่ 
-1. ถ้า **Fail** ให้ทำการคลิกเข้าไปจากนั้น คลิก **Re-run failed** จะอยู่มุมขวาบน
-1. จากนั้นรอจน Deploy เสร็จแล้วให้ไปที่ Setiing
-1. ไปที่ Pages แล้วตรง **Branch** ให้เรา คลิกเลือกตรง **None** เป็น **gh-pages**
-1. จากนั้นกด **Save** แล้วรอรับ **Link** ได้เลย
+1. ถ้า **Fail** ให้ทำการคลิกเข้าไปจากนั้น คลิก ปุ่มลงตรง **Re-run Jobs** แล้วเลือก **Re-run failed jobs** ตามภาพ
+   ![image](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQ4o_fUIHNBB5usj2sqCmniR8GbyWhjtpXne21mACwM1MDkfjWGcv-ZE7kC-afNGjPsAzZYCZvT-hXxVQP_5zfDM5p20A=w1398-h1380)
+1. จากนั้นจะมี Pop-up ขึ้นมา ให้เรากด Re-run jobs ![image](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYQN0Dk9F1HLquG2YOOkgN5iiKYldqQQOaOsl3-smj2iOpMDmNnQhB7wnKNDlGubuPMhYsjMwtK-EfOHztdSM2XHqqPa=w1960-h1932)
+1. จากนั้นรอจน **Deploy** เสร็จแล้วให้ไปที่ **Setiing**
+1. ไปที่ **Pages** แล้วตรง **Branch** ให้เรา คลิกเลือกตรง **None** เป็น **gh-pages** ![image](https://lh3.googleusercontent.com/u/0/drive-viewer/AEYmBYTPK8mnmx_KOfhAb8DXxcR8vNzuWgfRha8x9mpxDStn3C1PRoKY2F77hGR3Z7K9SUyxKjiZJXhX8DEx2547DJwTflpTug=w1960-h1932)
+1. จากนั้นกด **Save** แล้วรอสักครู่ แล้วรีเฟรช เราก็จะได้ **Link** มา
