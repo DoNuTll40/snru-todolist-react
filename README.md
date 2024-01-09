@@ -58,6 +58,12 @@ npm run dev
 npm i axios
 ```
 
+- หรือ
+
+``` powershell
+npm install axios
+```
+
 ### วิธีเรียกใช้งาน
 - เรียกใช้งานในไฟล์หลัก
 
